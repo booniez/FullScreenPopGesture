@@ -7,9 +7,39 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+fullscreen pop gesture in an iOS14+ system style with AOP.
 
-## Requirements
+整体实现参照 ``FDFullscreenPopGesture``
+
+对外暴露属性保持一致
+```
+public protocol PopGestureRecognizable: AnyObject {
+    var interactivePopDisabled: Bool { get set }
+    var prefersNavigationBarHidden: Bool { get set }
+    var interactivePopMaxAllowedInitialDistanceToLeftEdge: CGFloat { get set }
+    var willAppearInjectBlock: ((_ viewController: UIViewController, _ animated: Bool) -> Void)? { get set }
+
+    func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool
+}
+```
+
+
+# Usage
+
+**AOP**, just add 2 files and **no need** for any setups, all navigation controllers will be able to use fullscreen pop gesture automatically.  
+
+To disable this pop gesture of a navigation controller:  
+
+``` Swift
+navigationController?.fullscreenPopGestureRecognizer.isEnabled = false
+```
+
+To disable this pop gesture of a view controller:  
+
+``` Swift
+interactivePopDisabled = false
+```
+
 
 ## Installation
 

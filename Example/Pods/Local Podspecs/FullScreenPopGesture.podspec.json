@@ -1,0 +1,26 @@
+{
+  "name": "FullScreenPopGesture",
+  "version": "0.0.1",
+  "summary": "fullscreen pop gesture in an iOS14+ system style with AOP.",
+  "description": "FullScreenPopGesture",
+  "homepage": "https://github.com/booniez/FullScreenPopGesture",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "booniez": "booniezbox@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:booniez/FullScreenPopGesture.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "FullScreenPopGesture/Classes/**/*",
+  "swift_version": "5.0"
+}

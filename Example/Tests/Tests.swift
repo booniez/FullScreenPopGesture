@@ -1,5 +1,5 @@
 import XCTest
-import FullScreenPopGesture
+//import FullScreenPopGesture
 
 class Tests: XCTestCase {
     

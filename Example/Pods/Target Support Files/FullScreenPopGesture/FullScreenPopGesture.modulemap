@@ -1,0 +1,6 @@
+framework module FullScreenPopGesture {
+  umbrella header "FullScreenPopGesture-umbrella.h"
+
+  export *
+  module * { export * }
+}
