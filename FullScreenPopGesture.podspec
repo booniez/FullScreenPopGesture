@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'FullScreenPopGesture'
+  s.name             = 'FullScreenPopGesture.Swift'
   s.version          = '0.0.1'
   s.summary          = 'fullscreen pop gesture'
 

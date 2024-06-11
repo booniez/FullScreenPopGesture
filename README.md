@@ -47,7 +47,7 @@ FullScreenPopGesture is available through [CocoaPods](https://cocoapods.org). To
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'FullScreenPopGesture'
+pod 'FullScreenPopGesture.Swift'
 ```
 
 ## Author
